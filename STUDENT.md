@@ -1,13 +1,13 @@
 # Thông tin học viên
 
-- Họ và tên: <<>>
-- MSHV: <<>>
-- Lớp (L2 / L3 / khác): <<>>
-- Tài khoản GitHub: <<>>
-- Repo bài nộp (URL): <<>>
-- Commit chốt bài (hash): <<>>
-- Máy: <<hệ điều hành, GPU (CUDA / MPS / không có)>>
-- CVAT (Docker): <<phiên bản, ví dụ v2.81.0>>
+- Họ và tên: Nguyễn Huy Vượng
+- MSHV: 2A202603133
+- Lớp (L2 / L3 / khác): L23
+- Tài khoản GitHub: Virgoboyy
+- Repo bài nộp (URL): https://github.com/Virgoboyy/K5-L23-Day08-NguyenHuyVuong-2A202603133-AI-Assisted-Labeling
+- Commit chốt bài (hash): <<sẽ điền khi hoàn thành toàn bộ bài lab>>
+- Máy: Windows, CPU (không có GPU CUDA)
+- CVAT (Docker): v2.81.0
 
 ## Kết quả tóm tắt (điền cuối bài; số lấy từ `submission/qc/*`, kèm mẫu số)
 
