@@ -1,4 +1,4 @@
-# Label contract — Phố châu Á — BỔ SUNG v1.1 — <<MSHV - Họ tên>>
+# Label contract — Phố châu Á — BỔ SUNG v1.1 — 2A202603133 - Nguyễn Huy Vượng
 
 > **Chỉ viết phần thay đổi so với v1.0** (không copy cả file). Chốt các câu hỏi mở ở mục 6 của v1.0 (hoặc nói rõ câu nào chưa chốt, vì sao)
 > và thêm quy tắc mới rút ra từ lỗi của máy / lỗi của bạn. Mỗi ca khó **có ảnh ví dụ** (`img_0xx`) và khớp một dòng trong `qc/calibration_decisions.csv`.
@@ -7,17 +7,18 @@
 
 | # | Câu hỏi | Quyết định | Ảnh ví dụ | `case_id` |
 |---|---|---|---|---|
-| <<1>> | <<xe đạp điện: bicycle hay motorbike?>> | <<>> | <<img_0xx>> | <<CAL-01>> |
+| 1 | Xe đạp điện / xe máy điện nhỏ: bicycle hay motorbike? | Xe có bàn đạp trợ lực tính là `bicycle`; xe không có bàn đạp dáng scooter tính là `motorbike` | img_002.jpg | CAL-02 |
+| 3 | Hàng nhô ra: xe đạp / ba gác chở hàng nhô xa: box xe có gồm hàng không? | Chỉ tính phần hàng nhô ra ≤ 20% chiều dài xe vào box xe; phần nhô vượt quá 20% thì không kéo box theo | img_004.jpg | CAL-03 |
 
 ## 2. Ca khó mới (từ lỗi của máy, bẫy lọt, box `can_review`)
 
 | Ảnh | Tình huống | Máy làm gì (model nào) | Quyết định của bạn | Quy tắc mới (vào mục nào của v1.0) |
 |---|---|---|---|---|
-| <<img_0xx>> | <<>> | <<>> | <<>> | <<>> |
+| img_013.jpg | Xe tuk-tuk Thái Lan có mui che và khách ngồi trong | YOLO26 gọi là `car` hoặc `truck` (YOLO26-n) | Sửa lại thành `three_wheeler`, vẽ thêm box `person` cho người lái nếu thấy rõ | Bổ sung Mục 2: Xe ba bánh chở khách/hàng dù có mui gắn liền vẫn là `three_wheeler` (CAL-01) |
 
 ## 3. Lịch sử thay đổi
 
 | Phiên bản | Thay đổi | Lý do (ca nào, `case_id`) |
 |---|---|---|
 | v1.0 | Bản giảng viên | — |
-| v1.1 | <<tóm tắt các thay đổi ở mục 1–2>> | <<>> |
+| v1.1 | Bổ sung quy định xe điện, hàng hóa nhô ra khỏi xe và chuẩn hóa nhận diện xe ba bánh địa phương | CAL-01, CAL-02, CAL-03 |
