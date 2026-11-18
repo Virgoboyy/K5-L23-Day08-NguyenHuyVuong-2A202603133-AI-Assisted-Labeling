@@ -1,0 +1,7 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,1,sai_vi_tri_kich_thuoc,Nguyen Huy Vuong,Box three_wheeler hơi lỏng phía dưới và mép phải so với khung xe ba gác
+img_006.jpg,,bo_sot,Nguyen Huy Vuong,Bỏ sót người ngồi ăn quay lưng ở giữa #49 và #51
+img_014.jpg,,khong,Nguyen Huy Vuong,Ảnh sạch: người và xe máy đều khớp vị trí và đúng lớp
+img_031.jpg,252,thua,Nguyen Huy Vuong,Nhận nhầm áo khoác treo trên sạp hàng góc trên trái thành person
+img_031.jpg,251,sai_vi_tri_kich_thuoc,Nguyen Huy Vuong,Box person bị cắt ở ngang hông thiếu phần chân nhìn thấy qua khung xe đạp
+img_035.jpg,,bo_sot,Nguyen Huy Vuong,Bỏ sót nhóm người ngồi ghế nhựa và xe máy đỗ trên vỉa hè phía sau #282
